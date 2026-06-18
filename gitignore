@@ -1,0 +1,31 @@
+# Banco de dados (exceto o exemplo incluso no repositório)
+*.db
+*.sqlite
+!gmaps-lead-scraper/leads.db
+
+# Arquivos de controle dos bots
+pause.flag
+pause.txt
+aprovados.csv
+enviados.csv
+
+# Logs
+*.log
+
+# Sessão do Chrome (dados sensíveis)
+.wp_bot_profile/
+
+# Exports
+*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
